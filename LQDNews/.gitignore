@@ -1,0 +1,43 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# User data
+xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+
+# SwiftPM
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Temp files
+*.swp
